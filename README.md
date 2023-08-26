@@ -64,9 +64,10 @@ We have a CI setup that checks compilation on Ubuntu. You can review the steps i
 ### Manual via qmake
 
 1. Clone the source code.
-2. Run 'bash install_build_dependencies.sh ARCHITECTURE' (ARCHITECTURE can be X86, rpi, rock5).
-3. Run 'build_qmake.sh'.
-4. Find the binary under build/releases/QOpenHD.
+2. Go to cloned folder using terminal
+3. Run 'bash install_build_dep.sh ARCHITECTURE' (ARCHITECTURE can be X86, rpi, rock5).
+4. Run 'build_qmake.sh'.
+5. Find the binary under build/releases/QOpenHD.
 
 #### Android
 
